@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <title>YouTube clone 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-------------------------top bar------------------------->
+    
+    <nav class="flex-div">
+        <div class="left-nav">
+            <img src="images/menu.png" class="menu-icon">
+            <img src="images/logo.png" class="logo">
+        </div>
+        <div class="middle-nav">
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png" height="20px">
+            </div>
+            <img src="images/mic.png" class="mic-icon" height="30px">
+        </div>
+        <div class="right-nav">
+            <img src="images/upload.png" height="30px" style="padding-top: -1px;">
+            <img src="images/notification.png" height="25px" style="padding-top: 2px">
+            <img src="images/user.png">
+        </div>
+    </nav>
+
+    <!-------------------------side bar------------------------->
+
+    <div class="sidebar" id="scrollbar">
+        <div class="sidebar-left">
+            <a href="#"><img src="images/home.png" ><p>Home</p></a>
+            <a href="#"><img src="images/youtube-shorts-logo-15251.png" ><p>Shorts</p></a>
+            <a href="#"><img src="images/subscribe.png" ><p>Subscriptions</p></a>
+        </div>
+
+        <hr class="hr" style="margin-bottom: 5px;">
+        <div class="sidebar-left-you">
+            <a href="#"><p class="you">You</p><img src="images/next.png" height="20px" style="margin-top: 12px; margin-left: 5px;"></a>
+            <a href="#"><img src="images/yourchannel.png" ><p>Your Channel</p></a>
+            <a href="#"><img src="images/history.png" ><p>History</p></a>
+            <a href="#"><img src="images/yourvideos.png" ><p>Your videos</p></a>
+            <a href="#"><img src="images/watchlater.png" ><p>Watch later</p></a>
+            <a href="#"><img src="images/showmore.png" ><p>Show more</p></a>
+        </div>
+
+        <hr class="hr">
+        <p class="you">Subscriptions </p><br>
+        <div class="sidebar-left-sub">
+            <a href="#"><img src="images/magicalmessi.jpg" ><p>Magical Messi</p></a>
+            <a href="#"><img src="images/fcbarcelona.jpg" ><p>FC Barcelona</p></a>
+            <a href="#"><img src="images/aajtak.jpg" ><p>Aaj Tak</p></a>
+            <a href="#"><img src="images/bassi.jpg" ><p class="myicon">Anubhav Singh Bassi</p></a>
+            <a href="#"><img src="images/thumbnail10.jpg" ><p>EminemMusic</p></a>
+            <a href="#"><img src="images/showmore.png" ><p>Show more</p></a>
+        </div>
+        <hr class="hr">
+        <p class="you">Explore </p><br>
+        <div class="sidebar-left-you">
+            <a href="#"><img src="images/trending.png" ><p>Trending </p></a>
+            <a href="#"><img src="images/shopping.png" ><p> Shopping</p></a>
+            <a href="#"><img src="images/music.png" ><p> Music</p></a>
+            <a href="#"><img src="images/movies.png" ><p>Movies </p></a>
+            <a href="#"><img src="images/live.png" ><p> Live</p></a>
+            <a href="#"><img src="images/gaming.png" ><p> Gaming</p></a>
+            <a href="#"><img src="images/news.png" ><p> News</p></a>
+            <a href="#"><img src="images/sports.png" ><p> Sports</p></a>
+            <a href="#"><img src="images/learning.png" ><p>Learning </p></a>
+            <a href="#"><img src="images/fashion.png" ><p>Fashion & Beauty </p></a>
+            <a href="#"><img src="images/podcast.png" ><p> Podcasts</p></a>
+        </div>
+    </div>
+
+    <!---------------------------------------------main--------------------------------------------->
+
+    <div class="container">
+        <div class="banner">
+            <img src="images/banner.jpg" style="width: 100%;">
+            <div class="banner-text"><img src="images/logo1.png" style="height: 150px; width:250px;"><p>Student plan discount. Get ad-free music <br>and listen in the background for less.</p>
+            <button>Get it now</button></div>
+        </div>
+        <div class="vidbox">
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail1.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/magicalmessi.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">The King of America - Lionel Messi</a>
+                        <p>magicalmessi</p>
+                        <p>1.1M views &bull; 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video2.html"><img src="images/thumbnail01.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/thumbnail10.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video2.html">Eminem - Sing For The Moment (Official Music Video)</a>
+                        <p>EminemMusic</p>
+                        <p>521M views &bull; 13 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail2.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/magicalmessi.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>3.7M views &bull; 9 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail7.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/shinchan.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Shinchan New Episode In Hindi</a>
+                        <p>Shinchan</p>
+                        <p>138K views &bull; 5 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail5.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/magicalmessi.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">FC Barcelona - The Glory Days - Official Movie</a>
+                        <p>magicalmessi</p>
+                        <p>2.5M views &bull; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video2.html"><img src="images/thumbnail6.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/bassi.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video2.html">Hostel - Stand Up Comedy ft. Anubhav Singh Bassi</a>
+                        <p>Anubhav Singh Bassi</p>
+                        <p>73M views &bull; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail4.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/magicalmessi.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Messi d'Or - Official Movie</a>
+                        <p>magicalmessi</p>
+                        <p>1.5M views &bull; 1 month ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video2.html"><img src="images/thumbnail8.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/ankitbhatia.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video2.html">Manali | Jogini Falls | Himachal | Leh Ladakh Part 1 | Himalayas | Ankit Bhatia</a>
+                        <p>Ankit Bhatia</p>
+                        <p>790K views &bull; 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video2.html"><img src="images/thumbnail9.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/shinchan.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video2.html">Shinchan 2022 Most Viewed Episode</a>
+                        <p>Shinchan</p>
+                        <p>12M views &bull; 7 months ago</p>
+                    </div>
+                </div>
+            </div><div class="vid-list">
+                <a href="video2.html"><img src="images/thumbnail10.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/thumbnail10.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video2.html">Eminem - Love The Way You Lie ft. Rihanna</a>
+                        <p>EminemMusic</p>
+                        <p>2.7B views &bull; 13 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video2.html"><img src="images/farq hai.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video2.html">Farq Hai By Suzonn | Lyrics Video | Music Trends India</a>
+                        <p>Suzonn</p>
+                        <p>10M views &bull; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail2.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>2M views &bull; 12 days</p>
+                    </div>
+                </div>
+            </div><div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail3.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>2M views &bull; 12 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail4.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>2M views &bull; 12 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail5.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>2M views &bull; 12 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail6.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>2M views &bull; 12 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail7.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>2M views &bull; 12 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail8.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>2M views &bull; 12 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail9.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>2M views &bull; 12 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="images/thumbnail10.jpg" class="thumbnail"></a>
+                <div class="flex-div-main">
+                    <img src="images/user.jpg" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Argentina - INVINCIBLE | World Cup 2022 Film</a>
+                        <p>magicalmessi</p>
+                        <p>2M views &bull; 12 days</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
